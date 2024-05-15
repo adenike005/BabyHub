@@ -18,3 +18,8 @@ export default function RootLayout() {
     </Stack>
   );
 }
+
+
+//web: 220953422555-5jme2fasbgp4fnov28hkiqm4cj4sugr3.apps.googleusercontent.com
+//ios: 220953422555-9qgqi3a2fnea2dbkb0quopqko3n4aqha.apps.googleusercontent.com
+//android: 

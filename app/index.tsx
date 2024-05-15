@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         fontSize: 23,
         // textAlign:'center',
         marginTop: '3%',
-        fontFamily: 'LexendLight',
+        fontFamily: '',
         fontWeight: '100',
         color:"#ffffff",
       },
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
         marginTop: '10%',
         padding: 10,
         borderRadius: 20,
-        display:"flex",
+        // display:"flex",
         justifyContent:"center",
         alignItems:"center"
       }
