@@ -5,7 +5,7 @@ export default function RootLayout() {
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
     LexendBlack : require('../assets/fonts/Lexend-Black.ttf'),
-    LexendLight : require('../assets/fonts/Lexend-Light.ttf'),
+    LexendLight : require('../assets/fonts/Lexend-Thin.ttf'),
   });
 
   return (
