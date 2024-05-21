@@ -5,7 +5,7 @@ import { AntDesign } from '@expo/vector-icons';
 
 
 
-const welcome = () => {
+const Indextwo = () => {
   const router = useRouter();
   const colorScheme = useColorScheme();
 
@@ -15,19 +15,20 @@ const welcome = () => {
     <View style={[styles.container, themeContainerStyle]}>
     <View style={styles.context}>
       <Text  style={[themeTextStyle, styles.skip]} onPress={() => router.push('Indexthree')}>Skip</Text>
-     <Image source={require('../assets/images/Screenshot.png')}/>
+     <Image source={require('../assets/images/imageone.png')}/>
     </View>
     <View style={[styles.context2, themeContainerStyle]}>
-     <Text style={[styles.text, themeTextStyle]}> <Text style={{color:"#3669C9"}}>Discover</Text> a Variety of {'\n'} Infant Products</Text>
-     <Text style={[styles.texts, themeTextStyle]}>From diapers to toys, find everything  {'\n'}your baby needs in one place.</Text>
+     <Text style={[styles.text, themeTextStyle]}> <Text style={{color:"#3669C9"}}>Real-Time</Text> Order 
+ {'\n'} Tracking</Text>
+     <Text style={[styles.texts, themeTextStyle]}>Track your orders in real-time and know {'\n'}exactly when they'll arrive at your  {'\n'} doorstep.</Text>
     <View style={[styles.context3, themeContainerStyle]}>
     <View style={[styles.context4, themeContainerStyle]}>
-    <View style={[styles.buttom, themeTextStyle]}></View>
     <View style={[styles.buttoms, themeTextStyle]}></View>
+    <View style={[styles.buttom, themeTextStyle]}></View>
     <View style={[styles.buttoms, themeTextStyle]}></View>
     </View>
     <View style={styles.arrow} >
-    <AntDesign name="arrowright" size={20} color="#ffff" onPress={() => router.push('Indextwo')} />
+    <AntDesign name="arrowright" size={20} color="#ffff" onPress={() => router.push('Indexthree')} />
     </View>
     </View>
     </View>
@@ -35,7 +36,7 @@ const welcome = () => {
   )
 }
 
-export default welcome
+export default Indextwo
 
 const styles = StyleSheet.create({
   container: {
