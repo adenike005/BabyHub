@@ -5,7 +5,7 @@ import { AntDesign } from '@expo/vector-icons';
 
 
 
-const welcome = () => {
+const Indexthree = () => {
   const router = useRouter();
   const colorScheme = useColorScheme();
 
@@ -15,27 +15,28 @@ const welcome = () => {
     <View style={[styles.container, themeContainerStyle]}>
     <View style={styles.context}>
       <Text  style={[themeTextStyle, styles.skip]} onPress={() => router.push('Indexthree')}>Skip</Text>
-     <Image source={require('../assets/images/Screenshot.png')}/>
+     <Image source={require('../assets/images/imagetwo.png')}/>
     </View>
     <View style={[styles.context2, themeContainerStyle]}>
-     <Text style={[styles.text, themeTextStyle]}> <Text style={{color:"#3669C9"}}>Discover</Text> a Variety of {'\n'} Infant Products</Text>
-     <Text style={[styles.texts, themeTextStyle]}>From diapers to toys, find everything  {'\n'}your baby needs in one place.</Text>
-    <View style={[styles.context3, themeContainerStyle]}>
+     <Text style={[styles.text, themeTextStyle]}> <Text style={{color:"#3669C9"}}>Effortless</Text> Shopping at 
+ {'\n'}Your Fingertips</Text>
+     <Text style={[styles.texts, themeTextStyle]}>With a user-friendly interface, {'\n'} shopping for your baby has never been {'\n'} this easy.</Text>
+    {/* <View style={[styles.context3, themeContainerStyle]}>
     <View style={[styles.context4, themeContainerStyle]}>
+    <View style={[styles.buttoms, themeTextStyle]}></View>
+    <View style={[styles.buttoms, themeTextStyle]}></View>
     <View style={[styles.buttom, themeTextStyle]}></View>
-    <View style={[styles.buttoms, themeTextStyle]}></View>
-    <View style={[styles.buttoms, themeTextStyle]}></View>
     </View>
     <View style={styles.arrow} >
-    <AntDesign name="arrowright" size={20} color="#ffff" onPress={() => router.push('Indextwo')} />
+    <AntDesign name="arrowright" size={20} color="#ffff" onPress={() => router.push('Indexthree')} />
     </View>
-    </View>
+    </View> */}
     </View>
    </View>
   )
 }
 
-export default welcome
+export default Indexthree
 
 const styles = StyleSheet.create({
   container: {
