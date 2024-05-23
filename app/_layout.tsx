@@ -16,7 +16,7 @@ export default function RootLayout() {
       <Stack.Screen name="index" />
       <Stack.Screen name="welcome" />
       <Stack.Screen name="Indextwo" />
-      <Stack.Screen name="Indexthree" />
+      {/* <Stack.Screen name="Indexthree" /> */}
       <Stack.Screen name="Home" />
     </Stack>
   );
